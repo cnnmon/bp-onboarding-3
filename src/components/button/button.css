@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+.App-button {
+  display: flex;
+  width: 300px;
+  height: 45px;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+
+#button-green {
+  background: #29BF89;
+}
+
+#button-white {
+  background: #FAFAFA;
+}
+
+#button-clear {
+  border: 3px solid #FFFFFF;
+  background: transparent;
+}
+
+#button-clearAlt {
+  border: 3px solid #29BF89;
+  background: transparent;
+}
+
+.App-button-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  display: flex;
+  margin: 0 auto;
+  display: flex;
+  align-self: center;
+}
+
+#button-text-white {
+  color: #FFFFFF;
+}
+
+#button-text-green {
+  color: #29BF89;
+}
+
+#button-text-grey {
+  color: #CFD8DC;
+}
